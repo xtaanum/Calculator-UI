@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            center: '#232D36',
+            numbers: '#505151',
+            ground: '#F7F8FD',
+            div: '#505050',
+            body: '#DBE2EA'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <div class="flex flex-row justify-center items-center gap-10 bg-body">
+        <div class="h-[400px] w-[220px] border-[4px] border-double border-slate-400 rounded-[8%] bg-ground p-2 mt-[150px]">
+          <!--nav section-->
+      <div class="flex flex-row p-2 gap-20">
+      <p class="text-black">9:41</p>
+      <div class="flex flex-row justify-between">
+          <i class='bx bx-signal-4'></i>
+          <i class='bx bx-wifi'></i>
+          <i class='bx bxs-battery'></i>
+      </div>
+      </div>
+      <div class="p-2">
+      <i class='bx bx-moon'></i>
+      </div>
+      
+      <!--calculation-->
+      <div class="text-right mb-[20px]">
+          <p>58*8+6-58</p>
+          <p>396</p>
+      </div>
+      
+      <!--grid section-->
+      <div class="grid grid-cols-4 grid-row-5 gap-2">
+          <div class="bg-slate-200 text-white rounded-full p-2 text-center">%</div>
+          <div class="bg-slate-200 text-white rounded-full p-2 text-center">x</div>
+          <div class="bg-slate-200 text-white rounded-full p-2 text-center">+</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 text-center">*</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">7</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">8</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">9</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 text-center">-</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">4</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">5</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">6</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 text-center">+</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">1</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">2</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">3</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 row-span-2 text-center">=</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">AC</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">0</div>
+          <div class="bg-div text-white rounded-full p-2 text-center">.</div>
+      </div>
+        </div>
+      
+      
+        <!---second cal-->
+        <div class="h-[400px] w-[220px] border-[4px] border-double border-white rounded-[8%] bg-center p-2">
+          <!--nav section-->
+      <div class="flex flex-row p-2 gap-20">
+      <p class="text-white">9:41</p>
+      <div class="flex flex-row justify-between text-white">
+          <i class='bx bx-signal-4'></i>
+          <i class='bx bx-wifi'></i>
+          <i class='bx bxs-battery'></i>
+      </div>
+      </div>
+      <div class="p-2 text-white">
+        <i class='bx bx-sun' ></i>
+      </div>
+      
+      <!--calculation-->
+      <div class="text-right mb-[20px] text-numbers">
+          <p>58*8+6-58</p>
+          <p class="text-right text-white">396</p>
+        </div>
+          
+     
+      
+      <!--grid section-->
+      <div class="grid grid-cols-4 grid-row-5 gap-2">
+          <div class="bg-slate-200 text-white rounded-full p-2 text-center">%</div>
+          <div class="bg-slate-200 text-white rounded-full p-2 text-center">x</div>
+          <div class="bg-slate-200 text-white rounded-full p-2 text-center">+</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 text-center">*</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">7</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">8</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">9</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 text-center">-</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">4</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">5</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">6</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 text-center">+</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">1</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">2</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">3</div>
+          <div class="bg-orange-400 text-white rounded-full p-2 row-span-2 text-center">=</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">AC</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">0</div>
+          <div class="bg-numbers text-white rounded-full p-2 text-center">.</div>
+      </div>
+        </div>
+      </div>
+</body>
+</html>
